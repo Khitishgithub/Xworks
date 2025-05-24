@@ -1,4 +1,6 @@
 // api/auth/applicants/route.ts
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { getClient } from '../../../../lib/db';
 import { getServerSession } from 'next-auth/next';
