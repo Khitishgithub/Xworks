@@ -1,4 +1,5 @@
 // app/api/auth/allcourses/route.ts
+export const dynamic = 'force-dynamic';
 import { NextResponse } from "next/server";
 import { getClient } from "../../../../lib/db"; 
 
